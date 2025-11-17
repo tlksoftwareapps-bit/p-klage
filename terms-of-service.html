@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brukervilkår - P-klage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #1d1d1f;
+        }
+        .updated {
+            color: #86868b;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #1d1d1f;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin: 15px 0 15px 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ff9500;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .warning p {
+            color: #856404;
+            font-weight: 600;
+        }
+        .info-box {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .info-box.success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+        .info-box.danger {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+        }
+        .info-box h3 {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        .contact {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .important {
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Brukervilkår</h1>
+        <p class="updated">Sist oppdatert: 17. november 2024</p>
+
+        <h2>1. Aksept av vilkår</h2>
+        <p>Ved å bruke P-klage-appen aksepterer du disse brukervilkårene. Hvis du ikke godtar vilkårene, skal du ikke bruke appen.</p>
+
+        <h2>2. Tjenestebeskrivelse</h2>
+        <p>P-klage er en tjeneste som hjelper deg med å:</p>
+        <ul>
+            <li>Generere klagebrev på parkeringsbøter</li>
+            <li>Få AI-basert analyse av klagen din (valgfri betalt tjeneste)</li>
+            <li>Organisere og administrere dine klager</li>
+            <li>Skanne parkeringsbøter med OCR for automatisk utfylling</li>
+        </ul>
+        <div class="warning">
+            <p>VIKTIG: Vi er IKKE advokater. Tjenesten gir verktøy og veiledning, men ikke juridisk rådgivning. Vi kan ikke garantere at klagen din vil bli godkjent.</p>
+        </div>
+
+        <h2>3. Ditt ansvar</h2>
+        <p>Som bruker er du ansvarlig for:</p>
+        <ul>
+            <li>At informasjonen du oppgir er korrekt og sannferdig</li>
+            <li>At du har rett til å klage på den aktuelle parkeringsboten</li>
+            <li>Å sende klagen til riktig parkeringsselskap</li>
+            <li>Å følge opp klagen med parkeringsselskapet</li>
+            <li>Å holde din konto og dine innloggingsdetaljer sikre</li>
+        </ul>
+
+        <h2>4. Betalingsvilkår - AI-analyse</h2>
+        <p><strong>AI-analyse av klager:</strong></p>
+        <ul>
+            <li><strong>Pris:</strong> 49 kr (engangsbetaling)</li>
+            <li><strong>Gir:</strong> AI-basert analyse av din klage med suksesssjanse, styrker, svakheter og forbedringsforslag</li>
+            <li><strong>Betaling:</strong> Via Vipps eller Stripe</li>
+            <li><strong>Ingen refusjon:</strong> Tjenesten kan ikke refunderes etter at analysen er levert</li>
+        </ul>
+        <p><em>AI-analysen er et verktøy og garanterer ikke resultatet av klagen.</em></p>
+
+        <h2>5. "No Win, No Fee" - Suksessbasert avgift</h2>
+        <p><strong>Vi tilbyr en alternativ betalingsmodell:</strong></p>
+        
+        <div class="info-box success">
+            <h3>✓ Hvis klagen godkjennes:</h3>
+            <p>Du betaler 20% av bot-beløpet til oss</p>
+        </div>
+        
+        <div class="info-box danger">
+            <h3>✗ Hvis klagen avvises:</h3>
+            <p>Du betaler INGENTING til oss (0 kr)</p>
+        </div>
+
+        <p><strong>Viktige vilkår:</strong></p>
+        <ul>
+            <li>Du må godkjenne avtalen før du sender klagen</li>
+            <li>Du må oppgi bot-beløpet når du sender klagen</li>
+            <li>Når du får svar fra parkeringsselskapet, rapporterer du resultatet til oss</li>
+            <li>Hvis klagen godkjennes, sender vi deg et betalingskrav via Vipps/Stripe</li>
+            <li>Du forplikter deg til å betale innen 14 dager</li>
+            <li>Ved uenighet om resultatet, forbeholder vi oss retten til å kreve dokumentasjon</li>
+        </ul>
+
+        <h2>6. Immaterielle rettigheter</h2>
+        <p>All innhold i appen (design, tekst, kode, logo) eies av P-klage. Du får ikke rett til å:</p>
+        <ul>
+            <li>Kopiere eller reprodusere appen eller deler av den</li>
+            <li>Selge eller lisensiere innholdet videre</li>
+            <li>Reverse-engineere eller dekompilere appen</li>
+        </ul>
+        <p>Du beholder full eiendomsrett til klagetekstene du genererer og kan bruke dem fritt.</p>
+
+        <h2>7. Ansvarsfraskrivelse</h2>
+        <p>Vi kan IKKE holdes ansvarlige for:</p>
+        <ul>
+            <li>Avviste klager eller negative resultater</li>
+            <li>Tap av data eller tekniske problemer</li>
+            <li>Feil i AI-analysen</li>
+            <li>Manglende respons fra parkeringsselskap</li>
+            <li>Eventuelle juridiske konsekvenser av klagen din</li>
+        </ul>
+        <p class="important">Tjenesten leveres "som den er" uten garantier av noe slag.</p>
+
+        <h2>8. Oppsigelse av konto</h2>
+        <p>Du kan når som helst slette din konto ved å kontakte oss på <a href="mailto:tlksoftware.apps@gmail.com">tlksoftware.apps@gmail.com</a>. Vi forbeholder oss retten til å stenge kontoer som bryter disse vilkårene. P-klage forbeholder seg retten til å stenge kontoer som misbruker tjenesten.</p>
+
+        <h2>9. Endringer i vilkårene</h2>
+        <p>Vi kan oppdatere disse vilkårene når som helst. Endringer vil bli publisert i appen med ny dato. Ved å fortsette å bruke appen etter endringer, aksepterer du de nye vilkårene.</p>
+
+        <h2>10. Lovvalg og verneting</h2>
+        <p>Disse vilkårene er underlagt norsk lov. Eventuelle tvister skal løses i norske domstoler.</p>
+
+        <h2>11. Kontakt oss</h2>
+        <p>Ved spørsmål om disse vilkårene, kontakt oss på:</p>
+        <div class="contact">
+            <p>📧 E-post: <a href="mailto:tlksoftware.apps@gmail.com">tlksoftware.apps@gmail.com</a></p>
+            <p>📱 Telefon: <a href="tel:+4790179841">+47 901 79 841</a></p>
+            <p>🏢 Adresse: Kristian IVs gate 32, 4612 Kristiansand S</p>
+        </div>
+    </div>
+</body>
+</html>
+
